@@ -18,7 +18,6 @@ function Navigation() {
               Patient
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link className="dropdown-item" to="/create-appointment">Create Appointment</Link>
               <Link className="dropdown-item" to="/create-patient">Create Patient</Link>
               <Link className="dropdown-item" to="/edit-patient">Edit Patient</Link>
             </div>
@@ -35,7 +34,7 @@ function Navigation() {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/make-bill">Make bill</Link>
+            <Link className="nav-link" to="/appointments">Appointments</Link>
           </li>
         </ul>
         <Link className="nav-link text-danger" to="/logout">Logout</Link>

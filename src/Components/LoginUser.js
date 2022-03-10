@@ -44,7 +44,7 @@ function LoginUser() {
                 </div>
             </div>
             <div className='input-group mt-5 mb-3'>
-                <div className='d-flex flex-row justify-content-between'>
+                <div className='d-flex justify-content-between'>
                     <a type='button' className='btn btn-default text-primary' onClick={handleToggleUser}>
                         {isAdminUser ? "Login as normal user" : "Login as Admin user"}
                     </a>

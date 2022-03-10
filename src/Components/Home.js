@@ -18,7 +18,7 @@ function Home() {
           </p>
           <div className='my-4'>
             <Link to='/create-patient' className='btn btn-outline-primary text-monospace btn-lg my-2 mr-2'>Create Patient</Link>
-            <Link to='/create-appointment' className='btn text-success text-monospace btn-lg my-2'>Create Appointment</Link>
+            <Link to='/create-appointment' className='btn btn-lg btn-success text-monospace my-2'>Create Appointment</Link>
           </div>
         </div>
         <div className="col">
