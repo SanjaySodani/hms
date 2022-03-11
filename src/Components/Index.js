@@ -7,7 +7,6 @@ import DeleteDoctor from './DeleteDoctor';
 import EditDoctor from './EditDoctor';
 import EditPatient from './EditPatient';
 import Home from './Home';
-import Logout from './Logout';
 import Navigation from './Navigation';
 
 function Index() {
@@ -24,7 +23,6 @@ function Index() {
         <Route exact path='/edit-doctor' element={<EditDoctor />} />
         <Route exact path='/delete-doctor' element={<DeleteDoctor />} />
         <Route exact path='/appointments' element={<Appointments />} />
-        <Route exact path='/logout' element={<Logout />} />
       </Routes>
     </>
   )
